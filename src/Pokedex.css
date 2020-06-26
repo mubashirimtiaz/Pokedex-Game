@@ -1,0 +1,25 @@
+.Pokedex-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Pokedex-title {
+  text-align: center;
+}
+.Pokedex-exp {
+  text-align: center;
+  font-weight: 600;
+}
+.Pokedex-win {
+  color: yellowgreen;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.Pokedex-lose {
+  color: crimson;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
