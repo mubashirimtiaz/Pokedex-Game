@@ -60,7 +60,7 @@ export default class Pokedex extends Component {
       <div className="Pokedex">
         <p className="Pokedex-exp">Total experience: {this.props.exp} </p>
         <p className={this.props.isWinner ? "Pokedex-win" : "Pokedex-lose"}>
-          {this.props.isWinner ? "Winner" : "Lose"}
+          {this.props.isWinner ? "Winning Hand" : "Losing Hand"}
         </p>
         <div className="Pokedex-card">
           {this.props.pokemon.map((i) => (
